@@ -14,6 +14,9 @@ func Average(xs []float64) float64 {
 
 //return min item in arry
 func Min(xs []float64) float64 {
+	if len(xs) == 0 {
+		return 0.0
+	}
 	result := xs[0]
 	for _, item := range xs {
 		if item < result {
@@ -25,6 +28,9 @@ func Min(xs []float64) float64 {
 
 //return max item in arry
 func Max(xs []float64) float64 {
+	if len(xs) == 0 {
+		return 0.0
+	}
 	result := 0.0
 	for _, item := range xs {
 		if item > result {
