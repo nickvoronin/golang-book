@@ -13,6 +13,6 @@ func main() {
 		19, 97, 9, 17,
 	}
 
-	fmt.Println(min(x...))
-	fmt.Println(max(x...))
+	fmt.Println(Min(x...))
+	fmt.Println(Max(x...))
 }

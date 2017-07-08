@@ -1,6 +1,6 @@
 package math
 
-func min(x ...float64) float64 {
+func Min(x ...float64) float64 {
 	minNumber := x[0]
 	for _, y := range x {
 		if y < minNumber {
@@ -11,7 +11,7 @@ func min(x ...float64) float64 {
 	return minNumber
 }
 
-func max(x ...float64) float64 {
+func Max(x ...float64) float64 {
 	maxNumber := x[0]
 	for _, y := range x {
 		if y > maxNumber {
