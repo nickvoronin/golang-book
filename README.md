@@ -1,2 +1,1 @@
-# golang-book
-# Learning Go language by the http://golang-book.ru/
+##### Learning Go language by the http://golang-book.ru/
